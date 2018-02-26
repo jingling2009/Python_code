@@ -5,7 +5,7 @@
 #                           养宠物(让所有的宠物吃饭, 玩, 睡觉),
 #                           让宠物工作(让所有的宠物根据自己的职责开始工作)
 
-class Animal:
+class Animal(object):
     def __init__(self, name, age=1):
         self.name = name
         self.age = age
